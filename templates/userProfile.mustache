@@ -1,0 +1,28 @@
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <img src="/images/download.jpg"/>
+    <div class="container">
+        <form action="/users/addUser">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="User name" value="{{name}}"/>
+        </div>
+        <div class="form-group">
+            <label for="role">Role</label>
+            <input type="text"  class="form-control" id="role" name="role" placeholder="Role" value="{{role}}"/>
+        </div>
+        <div class="form-group">
+            <label for="status">Status</label>
+            <input type="text"  class="form-control" id="status" name="status" placeholder="status"  value="{{status}}"/>
+        </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
